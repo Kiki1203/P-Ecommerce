@@ -1,7 +1,13 @@
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+
+import './Supports/stylesheets/Utils.css';
+
 function App() {
   return (
     <div>
-      <h1 className="text-primary">Hello word</h1>
+      <Navbar />
+      <Footer />
     </div>
   );
 }
